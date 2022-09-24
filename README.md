@@ -10,7 +10,7 @@
 
 ## 導入方法
 
-[tabautotag.zip](https://github.com/kumrnm/aviutl-authentic-grouping/releases/download/v1.00/tabautotag.zip) を解凍し、Tablacus Explorer の addons フォルダに配置します。
+[tabautotag.zip](https://github.com/kumrnm/te-tabautotag/releases/download/v1.00/tabautotag.zip) を解凍し、Tablacus Explorer の addons フォルダに配置します。
 
 ## 設定項目
 
