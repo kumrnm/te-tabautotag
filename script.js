@@ -31,6 +31,7 @@ if (window.Addon == 1) {
 	if (reTags) {
 		AddEvent("GetTabName", function (Ctrl) {
 			let path = api.GetDisplayNameOf(Ctrl, SHGDN_FORPARSING | SHGDN_FORPARSINGEX);
+			if (typeof path != "string") return "";
 			let tabName = path.substr(path.lastIndexOf("\\") + 1);
 
 			if (reExclude) path = path.replace(reExclude, ",,,,,,,,");
